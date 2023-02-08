@@ -1,0 +1,5 @@
+{% if pwd == 1 %}
+<h1>{{ pwd|capitalize}} </h1>User Authenticated! 
+{% else%}
+Sorry! User not Authenticated!{{ user.password}}
+{%endif%}
